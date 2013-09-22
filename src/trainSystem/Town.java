@@ -1,7 +1,8 @@
 package trainSystem;
 import java.util.HashMap;
 import java.util.Set;
-
+/*The town class is used to represent a town and all the other towns it can reach directly by train.  Has a HashMap
+ * to hold each town it can reach and the weight of that path.*/
 
 public class Town {
 
